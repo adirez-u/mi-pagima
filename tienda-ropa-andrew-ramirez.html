@@ -1,0 +1,132 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDREW RAMIREZ - Marca de Ropa</title>
+
+    <!-- Add the Satisfy font link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <style>
+        /* Estilos generales del body y html */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Satisfy', cursive; /* Use the new font here */            background-color: #000; /* NOTA: Cambia este color si quieres un fondo diferente */
+            color: white; /* NOTA: Cambia este color para modificar el color del texto general */
+        }
+
+        /* Estilo para la imagen de fondo */
+        .bg {
+            background-image: url("C:\Users\Familia\Desktop\PRY\imagenes\fondo.jpg.png"); /* NOTA: Reemplaza esta URL con la de tu imagen de rayos */
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            /* NOTA: Puedes ajustar la opacidad añadiendo: opacity: 0.7; (cambia 0.7 al valor deseado) */
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 1200px; /* NOTA: Ajusta este valor para cambiar el ancho máximo del contenido */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            text-align: center;
+            padding: 50px 0; /* NOTA: Ajusta estos valores para cambiar el espacio alrededor del logo y la navegación */
+        }
+
+        /* Estilos del logo */
+        .logo {
+            max-width: 300px; /* NOTA: Cambia este valor para ajustar el tamaño máximo del logo */
+            margin-bottom: 30px;
+        }
+
+        /* Estilos de la navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        nav a {
+            color: white; /* NOTA: Cambia este color para los enlaces de navegación */
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px; /* NOTA: Ajusta este valor para cambiar el tamaño de la fuente de los enlaces */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Estilos del contenido principal */
+        .content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em; /* NOTA: Ajusta este valor para cambiar el tamaño del título principal */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+
+        /* Estilos del botón de llamada a la acción */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #8a2be2; /* NOTA: Cambia este color para modificar el color del botón */
+            color: white; /* NOTA: Cambia este color para modificar el color del texto del botón */
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #9b4deb; /* NOTA: Cambia este color para modificar el color del botón al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <!-- Div para la imagen de fondo -->
+    <div class="bg"></div>
+
+    <div class="container">
+        <header>
+            <!-- NOTA: Reemplaza la URL del placeholder con la URL de tu logo -->
+            <img src="C:\Users\Familia\Desktop\PRY\imagenes\1.png"alt="Andrew Ramirez Logo" class="logo">
+            
+            <!-- Navegación -->
+            <nav>
+                <!-- NOTA: Puedes cambiar o agregar más enlaces aquí -->
+                <a href="#coleccion">Colección</a>
+                <a href="#acerca">Acerca de</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#producto">productos</a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <!-- NOTA: Modifica el texto del h1 para cambiar el título principal -->
+            <h1>ANDREW RAMIREZ</h1>
+            
+            <!-- NOTA: Cambia este texto para modificar el subtítulo -->
+            <p>Descubre la nueva colección de moda electrizante</p>
+            
+            <!-- NOTA: Modifica el texto y el enlace del botón según sea necesario -->
+            <a href="#coleccion" class="cta-button">Ver Colección</a>
+        </div>
+    </div>
+</body>
+</html>
