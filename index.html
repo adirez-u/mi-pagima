@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marca de ropa fit con diseños personalizados. Explora nuestra colección y compra online.">
+    <title>AR - Marca de Ropa Fit</title>
+    <style>
+        /* Estilos básicos para la página */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5; /* Suave tono gris para elegancia */
+        }
+
+        header {
+            background-color: #4B0082; /* Violeta elegante */
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Logo estilizado "AR" */
+        header::before {
+            content: 'AR';
+            position: absolute;
+            left: 20px;
+            font-size: 2.5em;
+            color: #FFD700; /* Dorado para resaltar el logo */
+            font-family: 'Arial Black', sans-serif;
+        }
+
+        nav {
+            background-color: #0000FF; /* Azul eléctrico */
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FFD700; /* Dorado cuando se pasa el ratón */
+        }
+
+        .banner {
+            background: url('ruta-de-la-imagen/banner.jpg') no-repeat center center; /* Reemplaza "ruta-de-la-imagen/banner.jpg" con la ruta de tu imagen */
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4B0082; /* Violeta elegante */
+            font-size: 2.2em;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .category {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .category img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        .category h3 {
+            margin: 10px 0;
+            color: #4B0082; /* Violeta elegante */
+        }
+
+        .category a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0000FF; /* Azul eléctrico */
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .category a:hover {
+            background-color: #FFD700; /* Dorado para resaltar */
+        }
+
+        footer {
+            background-color: #4B0082;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 30px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #0000FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #FFD700; /* Dorado */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <span>AR</span> Mi Marca de Ropa Fit
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div>Ropa Fit que se adapta a ti</div>
+    </section>
+
+    <!-- Contenedor de Productos -->
+    <div class="container">
+        <h2>Categorías</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="ruta-de-la-imagen/camisas.jpg" alt="Camisas"> <!-- Reemplaza "ruta-de-la-imagen/camisas.jpg" con la ruta de tu imagen -->
+                <h3>Camisas</h3>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="category">
+                <img src="ruta-de-la-imagen/pantalones.jpg" alt="Pantalones"> <!-- Reemplaza "ruta-de-la-imagen/pantalones.jpg" con la ruta de tu imagen -->
+                <h3>Pantalones</h3>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="category">
+                <img src="ruta-de-la-imagen/sudaderas.jpg" alt="Sudaderas"> <!-- Reemplaza "ruta-de-la-imagen/sudaderas.jpg" con la ruta de tu imagen -->
+                <h3>Sudaderas</h3>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="category">
+                <img src="ruta-de-la-imagen/busos.jpg" alt="Busos"> <!-- Reemplaza "ruta-de-la-imagen/busos.jpg" con la ruta de tu imagen -->
+                <h3>Busos</h3>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="category">
+                <img src="ruta-de-la-imagen/mochos.jpg" alt="Mochos"> <!-- Reemplaza "ruta-de-la-imagen/mochos.jpg" con la ruta de tu imagen -->
+                <h3>Mochos</h3>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario de Contacto -->
+    <div class="container">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        © 2024 Mi Marca de Ropa Fit | Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
